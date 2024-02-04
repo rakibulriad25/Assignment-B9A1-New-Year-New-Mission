@@ -1,0 +1,9 @@
+#banner-img {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    height: 600;
+    width: 1320;
+}
+
+/* Hello */

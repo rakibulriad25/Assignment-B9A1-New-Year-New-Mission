@@ -1,5 +1,12 @@
 :root {
     --dark-color: #070211;
+    --grey-color: rgba(7, 2, 17, 0.6);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #banner-img {
@@ -8,6 +15,50 @@
     margin: 10px;
     height: 600;
     width: 1320;
+}
+
+/* Newsletter Section */
+
+.newsletter {
+    margin: 5%;
+    padding: 60px;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter-heading {
+    color: var(--dark-color);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.newsletter-text {
+    margin: 25px 50px;
+    color: var(--grey-color);
+    font-size: 0.9rem;
+}
+
+.newsletter-form {
+    display: flex;
+}
+
+.newsletter-form input {
+    padding: 15px 20px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.newsletter-form button {
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.email-logo img {
+    height: 150px;
+    width: 150px;
 }
 
 /* Footer */
